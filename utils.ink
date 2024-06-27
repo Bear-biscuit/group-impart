@@ -1,6 +1,7 @@
-===function add_action_count()===
+===function take_action()===
 你消耗了一次行动机会。
-~ action_count++
+~ action_flag = true
+~ action_count--
 
 ===function add_range(ref var_ref, num, min, max)===
 ~ temp i = var_ref + num
